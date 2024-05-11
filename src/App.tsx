@@ -61,7 +61,10 @@ const router = createBrowserRouter([
     ],
     
   },
-])
+],
+{
+basename:'/deploy-kanban-github/'
+})
 
 function App(): JSX.Element {
   return (
